@@ -33,9 +33,13 @@ class CrachaApp extends StatelessWidget {
               children: [
                 // ===============================================================
                 // EXERCÍCIO 1 - FOTO DE PERFIL (INÍCIO)
+                // CircleAvatar com raio 50 carregando imagem via NetworkImage
                 // ===============================================================
                 const CircleAvatar(
                   radius: 50,
+                  backgroundImage: NetworkImage(
+                    'https://github.com/eumiiguel.png',
+                  ),
                 ),
                 // EXERCÍCIO 1 (FIM)
 
