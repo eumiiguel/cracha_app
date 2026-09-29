@@ -22,11 +22,11 @@ class CrachaApp extends StatelessWidget {
             width: 320,
             padding: const EdgeInsets.all(20),
             decoration: BoxDecoration(
-              color: Colors.indigo,
               borderRadius: BorderRadius.circular(15),
               boxShadow: const [
                 BoxShadow(color: Colors.black26, blurRadius: 8),
               ],
+              gradient: gradienteCracha, // definido no EXERCÍCIO 5 (final do arquivo)
             ),
             child: Column(
               mainAxisSize: MainAxisSize.min,
@@ -105,5 +105,15 @@ class CrachaApp extends StatelessWidget {
 }
 
 // ===============================================================
-// EXERCÍCIO 5 - DECORAÇÃO E GRADIENTE
+// EXERCÍCIO 5 - DECORAÇÃO E GRADIENTE (INÍCIO)
+// Fundo do cartão com LinearGradient nas cores indigo e blueAccent
 // ===============================================================
+const gradienteCracha = LinearGradient(
+  colors: [
+    Colors.indigo,
+    Colors.blueAccent,
+  ],
+  begin: Alignment.topLeft,
+  end: Alignment.bottomRight,
+);
+// EXERCÍCIO 5 (FIM)
