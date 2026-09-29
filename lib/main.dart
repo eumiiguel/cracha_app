@@ -56,11 +56,14 @@ class CrachaApp extends StatelessWidget {
 
                 // ===============================================================
                 // EXERCÍCIO 2 - ESTILIZAÇÃO E BIOGRAFIA (INÍCIO)
+                // Biografia em itálico com tamanho de fonte 14
                 // ===============================================================
                 const Text(
                   'Desenvolvedor Mobile Flutter / SENAI',
                   style: TextStyle(
                     color: Colors.white70,
+                    fontSize: 14,
+                    fontStyle: FontStyle.italic,
                   ),
                 ),
                 // EXERCÍCIO 2 (FIM)
