@@ -72,10 +72,16 @@ class CrachaApp extends StatelessWidget {
 
                 // ===============================================================
                 // EXERCÍCIO 3 - ALINHAMENTO DE SKILLS (INÍCIO)
+                // Row centralizada com 3 Chips: Dart, Flutter e Git
                 // ===============================================================
                 const Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Chip(label: Text('Dart')),
+                    SizedBox(width: 5),
+                    Chip(label: Text('Flutter')),
+                    SizedBox(width: 5),
+                    Chip(label: Text('Git')),
                   ],
                 ),
                 // EXERCÍCIO 3 (FIM)
