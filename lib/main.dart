@@ -47,6 +47,7 @@ class CrachaApp extends StatelessWidget {
 
                 const Text(
                   'Miguel de Almeida',
+                  textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 22,
                     fontWeight: FontWeight.bold,
@@ -60,6 +61,7 @@ class CrachaApp extends StatelessWidget {
                 // ===============================================================
                 const Text(
                   'Desenvolvedor Mobile Flutter / SENAI',
+                  textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Colors.white70,
                     fontSize: 14,
@@ -90,6 +92,8 @@ class CrachaApp extends StatelessWidget {
 
                 // ===============================================================
                 // EXERCÍCIO 4 - COMPILAÇÃO E ESTRUTURA
+                // Código compilando sem erros no Debian, com layout simétrico
+                // e centralizado (textAlign center no nome e na biografia).
                 // ===============================================================
               ],
             ),
